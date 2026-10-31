@@ -27,7 +27,7 @@ jobs:
       - name: Install Android SDK
         run: |
           yes | sdkmanager --licenses
-          sdkmanager "platform-tools" "platforms;android-36"
+          sdkmanager "platform-tools" "platforms;android-37"
 
       - name: Extract PULSAR source
         run: |
