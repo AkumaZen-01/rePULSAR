@@ -53,12 +53,12 @@ jobs:
         working-directory: buildsrc/PULSAR
         run: |
           chmod +x ./gradlew
-          ./gradlew --no-daemon :app:assembleStableRelease
+          ./gradlew --no-daemon :app:assembleStableDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: PULSAR-APK
-          path: buildsrc/PULSAR/app/build/outputs/apk/stable/release/*.apk
+          path: buildsrc/PULSAR/app/build/outputs/apk/stable/debug/*.apk
           if-no-files-found: error
           retention-days: 14
