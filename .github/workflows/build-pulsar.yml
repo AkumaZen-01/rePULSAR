@@ -34,7 +34,7 @@ jobs:
 
       - name: Extract PULSAR source
         run: |
-          unzip -q PULSAR-home-ui-pass1-sdk37.zip -d buildsrc
+          unzip -q PULSAR-Compose-Nuvio-Home-sdk37.zip -d buildsrc
           test -f buildsrc/PULSAR/gradlew
 
       - name: Initialise Git metadata
