@@ -34,7 +34,7 @@ jobs:
 
       - name: Extract PULSAR source
         run: |
-          unzip -q PULSAR-brand-debugfix.zip -d buildsrc
+          unzip -q PULSAR-home-redesign-v1.zip -d buildsrc
           test -f buildsrc/PULSAR/gradlew
 
       - name: Initialise Git metadata
