@@ -34,7 +34,7 @@ jobs:
 
       - name: Extract PULSAR source
         run: |
-          unzip -q PULSAR-nuvio-style-bottom-source-sdk37.zip -d buildsrc
+          unzip -q PULSAR-liquid-glass-bottom-source-scrollfade-sdk37.zip -d buildsrc
           test -f buildsrc/PULSAR/gradlew
 
       - name: Initialise Git metadata
