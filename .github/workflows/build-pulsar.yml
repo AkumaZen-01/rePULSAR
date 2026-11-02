@@ -34,7 +34,7 @@ jobs:
 
       - name: Extract PULSAR source
         run: |
-          unzip -q PULSAR-info-gradient-visible-fix.zip -d buildsrc
+          unzip -q PULSAR-all-tabs-purple-gradient-source-selector.zip -d buildsrc
           test -f buildsrc/PULSAR/gradlew
 
       - name: Initialise Git metadata
