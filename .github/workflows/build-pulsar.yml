@@ -34,7 +34,7 @@ jobs:
 
       - name: Extract PULSAR source
         run: |
-          unzip -q PULSAR-hero-halfheight-info-gradient.zip -d buildsrc
+          unzip -q PULSAR-hero-70-percent.zip -d buildsrc
           test -f buildsrc/PULSAR/gradlew
 
       - name: Initialise Git metadata
